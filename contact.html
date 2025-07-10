@@ -30,7 +30,44 @@
 
 </head>
 
-<body>
+<body class="min-vh-100 d-flex flex-column align-items-center">
+    <section class="d-flex flex-column justify-content-center align-items-center my-5">
+        <h1 class="mt-5 mb-4">Contactez-nous</h1>
+        <h2>Besoin de renseignement ? écrivez nous un petit message.</h2>
+    </section>
+    <form class="mt-5 w-50 d-flex flex-column justify-content-center">
+        <!-- nom et prénom -->
+        <div class="row">
+            <div class="col">
+                <label class="form-label">Example label</label>
+                <input type="text" class="form-control" placeholder="First name" placeholder="Example input placeholder">
+            </div>
+            <div class="col">
+                <label class="form-label">Example label</label>
+                <input type="text" class="form-control" placeholder="Last name" placeholder="Example input placeholder">
+            </div>
+        </div>
+        <!-- email -->
+        <div class="mb-3">
+            <label class="form-label">Example label</label>
+            <input type="email" class="form-control" placeholder="Example input placeholder">
+        </div>
+        <!-- objet -->
+        <div class="mb-3">
+            <label class="form-label">Example label</label>
+            <input type="text" class="form-control" placeholder="Example input placeholder">
+        </div>
+        <!-- textarea -->
+        <div class="mb-3">
+            <label class="form-label">Example label</label>
+            <textarea class="form-control" placeholder="Leave a comment here"></textarea>
+        </div>
+    </form>
+    <section class="d-flex flex-row justify-content-evenly">
+        <div class="d-flex icon"><i class="fa-solid fa-phone fa-3x"></i></div>
+        <div><i class="fa-solid fa-envelope fa-3x"></i></div>
+        <div><i class="fa-solid fa-location-dot fa-3x"></i></div>
+    </section>
 
     
 
